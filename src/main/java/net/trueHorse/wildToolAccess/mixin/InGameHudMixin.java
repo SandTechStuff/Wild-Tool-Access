@@ -94,7 +94,7 @@ public class InGameHudMixin implements InGameHudAccess{
                     xCoordinate = firstSlotXCoordinate + k * spaceBetweenSlots - spaceBetweenSlots*openAccessbar.getSelectedAccessSlotIndex();
                     context.blit(barTextures, xCoordinate, yCoordinate, 44, 0, 22, 22);
                 }
-                context.blit(barTextures, firstSlotXCoordinate - 1, yCoordinate - 1, 0, 22, 24, 22);
+                context.blit(barTextures, firstSlotXCoordinate - 1, yCoordinate - 1, 0, 22, 24, 24);
 
                 context.pose().popPose();
 
