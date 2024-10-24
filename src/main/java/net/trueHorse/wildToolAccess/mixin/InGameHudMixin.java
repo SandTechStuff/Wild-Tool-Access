@@ -87,7 +87,7 @@ public class InGameHudMixin implements InGameHudAccess{
                     xCoordinate = firstSlotXCoordinate + k * spaceBetweenSlots - spaceBetweenSlots*openAccessbar.getSelectedAccessSlotIndex();
                     context.drawTexture(barTextures, xCoordinate, yCoordinate, 44, 0, 22, 22);
                 }
-                context.drawTexture(barTextures, firstSlotXCoordinate - 1, yCoordinate - 1, 0, 22, 24, 22);
+                context.drawTexture(barTextures, firstSlotXCoordinate - 1, yCoordinate - 1, 0, 22, 24, 24);
 
                 context.getMatrices().pop();
 
